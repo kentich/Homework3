@@ -1,0 +1,160 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+}
+
+header {
+    background-image: url(./img/header.png);
+    background-size: cover;
+    padding-top: 120px;
+    padding-bottom: 138px;
+}
+
+.container-header-p {
+    margin-top: 27px;
+    font-weight: 700;
+}
+
+header p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+}
+
+.container {
+    margin: auto;
+    max-width: 1000px;
+}
+
+.top-container {
+    max-width: 754px;
+    font-size: 24px;
+    display: inline-block;
+}
+
+.top-container h2 {
+    color: #003395;
+    font-size: 27px;
+}
+
+.border-top-container {
+    border-top: solid 2px #003395;
+    border-bottom: solid 2px #003395;
+    margin-top: 57px;
+    margin-bottom: 16px;
+}
+
+.middle-container {
+    max-width: 754px;
+    display: inline-block;
+}
+
+.middle-container h2 {
+    color: #003395;
+    font-size: 27px;
+}
+
+.border-middle-container {
+    border-top: solid 2px #003395;
+    border-bottom: solid 2px #003395;
+    margin-top: 34px;
+    margin-bottom: 16px;
+    font-size: 24px;
+}
+
+.bottom-container {
+    max-width: 754px;
+    margin-bottom: 62px;
+    font-size: 24px;
+    display: inline-block;
+}
+
+.bottom-container h2 {
+    color: #003395;
+    font-size: 27px;
+}
+
+.border-bottom-container {
+    border-top: solid 2px #003395;
+    border-bottom: solid 2px #003395;
+    margin-top: 34px;
+    margin-bottom: 16px;
+}
+
+h1 {
+    color: #003395;
+    margin-bottom: 27px;
+    padding-bottom: 57px;
+}
+
+nav {
+    padding-top: 27px;
+    padding-bottom: 26px;
+    background-color: #003395;
+    margin-bottom: 57px;
+}
+
+nav a {
+    margin-right: 62px;
+    color: white;
+    text-decoration: none;
+}
+
+.container-news {
+    position: absolute;
+    border: solid 2px #33008D;
+    margin-bottom: 56px;
+    max-width: 362px;
+    left: 70%;
+    top: 615px;
+}
+
+.container-top {
+    background-color: #24B0FF;
+    margin: 19px;
+    color: white;
+    font-size: 27px;
+}
+
+.container-some-links {
+    position: absolute;
+    border: solid 2px #33008D;
+    width: 362px;
+    left: 70%;
+    top: 950px;
+    font-size: 16.2px;
+    margin-bottom: 10.6px;
+}
+
+ul {
+    list-style: none;
+}
+
+.some-links-text {
+    text-decoration-line: underline;
+    margin-left: 19px;
+}
+
+.container-bottom {
+    background-color: #24B0FF;
+    margin: 19px;
+    color: white;
+    font-size: 27px;
+}
+
+footer {
+    padding-top: 45px;
+    padding-bottom: 83px;
+    background: linear-gradient(180deg, #003395 0%, #00205F 100%);
+}
+
+.footer {
+    text-align: right;
+    color: white;
+    font-size: small;
+}
