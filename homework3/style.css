@@ -27,6 +27,7 @@ header h1 {
     color: #003395;
     font-weight: 500;
     margin-bottom: 27px;
+    font-size: 27px;
 }
 
 nav {
@@ -60,6 +61,7 @@ main {
     border-top: solid 2px #003395;
     border-bottom: solid 2px #003395;
     margin-bottom: 16px;
+    font-size: 27px;
 }
 
 .left p {
@@ -82,6 +84,7 @@ main {
     background-color: #24B0FF;
     color: white;
     margin: 19px 14px;
+    font-size: 27px;
 }
 
 .right p {
@@ -112,11 +115,7 @@ footer {
     padding-top: 45px;
     padding-bottom: 83px;
     background: linear-gradient(180deg, #003395 0%, #00205F 100%);
-}
-
-.footer {
     color: white;
-    font-size: small;
+    font-size: 11.7px;
     text-align: right;
-    max-width: 1178px;
 }
